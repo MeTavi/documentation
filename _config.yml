@@ -1,0 +1,11 @@
+title: "My Documentation Site"
+theme: "just-the-docs"
+remote_theme: "pmarsceill/just-the-docs" # ensures you are pulling the theme
+
+# Site settings
+docs_dir: "docs"
+# Navigation structure
+just_the_docs:
+  logo: "/assets/images/logo.png"
+  search_enabled: true
+  search_placeholder: "Search..."
