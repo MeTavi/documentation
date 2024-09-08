@@ -1,17 +1,15 @@
 # _config.yml
 title: "My Documentation Site"
-theme: "just-the-docs"
-remote_theme: "pmarsceill/just-the-docs"  # Ensure you're using the correct remote theme
-docs_dir: "docs"
+theme: "just-the-docs"  # Make sure this is the correct theme
+remote_theme: "pmarsceill/just-the-docs"  # Add this if it's missing
+docs_dir: "docs"  # This assumes you are using the /docs folder for your content
 
-# Navigation settings for Just the Docs
+# Just the Docs settings
 just_the_docs:
-  logo: "/assets/images/logo.png"    # optional, change if you want a logo
-  search_enabled: true
-  show_nav: true                     # enable the navigation sidebar
-  show_toc: true                     # enable the table of contents on each page
-  toc_levels: 1..3
-
+  search_enabled: true  # Ensure search is enabled
+  show_nav: true  # Ensure sidebar navigation is enabled
+  show_toc: true  # Ensure table of contents is enabled on each page
+  toc_levels: 1..3  # Table of contents depth
 # Navigation manually specified
 nav:
   - title: "Welcome"
